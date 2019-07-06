@@ -87,10 +87,14 @@ img{
 	margin:20px;
 }
 #about{
-	margin:2em;
+	display: block;
+	margin:2em auto;
+	width:60%;
+	
+}
+#about h1{
 	text-align: center;
 }
-
 #faq{
 	margin:2em;
 }
@@ -128,4 +132,10 @@ h1.big{
 	width:50%;
 	margin:5% auto;
 	display: block;
+}
+footer{
+	bottom: 0;
+	position: relative;
+	background-color:black;
+	color:#eee;
 }
