@@ -93,7 +93,6 @@ img{
 
 #faq{
 	margin:2em;
-	text-align: center;
 }
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
@@ -124,3 +123,9 @@ h1.big{
 	width:170px;
 	height:150px; 
   }
+
+#faq{
+	width:50%;
+	margin:5% auto;
+	display: block;
+}
